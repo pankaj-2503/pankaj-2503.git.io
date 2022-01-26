@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 12px;
+    font-size: x-large;
+    font align-content: center: 
+}
+
+.navbar{
+    background-color: peru;
+    list-style: none;
+    overflow: hidden;
+    background-color: powderblue;
+    border: 5px solid #555;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    
+    font-size:30px;  
+    font-color:white;  
+}
+.navbar li {
+    list-style: none;
+    font-color: solid white;
+    float:left;
+
+}
+body{
+    background-image: url("background_image.jpg");
+}    
+ 
+
+.main{
+    /* background-color: yellow; */
+    width:90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color:lightseagreen; */
+    height: 70vh;
+    width:80vw ;
+    margin: auto;
+    margin-top: 144px;
+    display: flex;
+    justify-content: space-around;
+}
+.hello{
+ font-size: 65px;
+ font-family: 'Mochiy Pop P One', sans-serif
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+}
+.about{
+    font-size: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.buttons{
+   
+    margin-right: 34px;
+    font-weight: 20px;
+}
+.buttons button:hover{
+    background-color: blueviolet;
+    color: rgb(27, 99, 170);
+}
+.buttons  button{
+    padding: 9rem 14px;
+    border-radius: 22px;
+    color: lightgreen;
+    background-color: rgb(64, 149, 235);
+    font-weight: bold;
+    font-size: 21px;
+    margin:0 3px;
+    cursor: pointer;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devPic img{
+ height:60vh;
+}
+.moreabout{
+    height:28vh;
+    font-size: 29px;
+    margin-top: 30px;
+}
+
+
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500rem) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  h2{
+      align-items: baseline;
+  }
+
+  .skillItem{
+      display: flex;
+      align-items: center;
+    justify-content: center;
+  }
+
+  .skillcontainer{
+      padding: 200px;
+     }
+  .skill{
+      width: 256px;
+      height: 8px;
+      background-color: crimson;
+      border: 1px solid black;
+      
+  }
+  .hundred{
+      width: 265px;
+      background-color: mediumslateblue;
+  }
+  .fifty{
+      width: 125px;
+      background-color: aqua;
+  }
+  .t5{
+      width: 10px;
+      background-color: greenyellow;
+  }
+  .t6{
+    width: 60px;
+    background-color: greenyellow;
+}
+  @media only  screen and(max-width:620px) {
+      .menu,.main,.right{
+          width:100%
+      }
+      
+  }
